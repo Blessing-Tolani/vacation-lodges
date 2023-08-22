@@ -58,6 +58,7 @@ const IOSSwitch = styled(Switch)({
 
 export default function Home() {
   const [isAllFeesChecked, toggleAllFeesSwitch] = useState(false)
+  const [activeCategory, setActiveCategory] = useState('Rooms')
 
   return (
     <section className="relative bg-white">
@@ -135,7 +136,14 @@ export default function Home() {
         <section className="px-5 sm:px-10 lg:px-20 flex items-start bg-white justify-between md:mt-6 mdMax:border-b border-neutral-200 md:pt-3 ">
           <div className="flex gap-x-10 items-center overflow-x-auto hide-scrollbar ">
             {CATEGORIES.map((category) => (
-              <button className="text-light-gray opacity-60 hover:opacity-100  whitespace-nowrap pb-3 hover:text-gray border-b-2 border-white hover:border-neutral-300 text-xs ">
+              <button
+                onClick={() => setActiveCategory(category.title)}
+                className={`${
+                  activeCategory === category.title
+                    ? 'opacity-100 text-black  border-gray'
+                    : 'opacity-70 text-[#717171]  border-white hover:text-gray hover:opacity-100  hover:border-neutral-300'
+                }    whitespace-nowrap pb-3  border-b-2   font-semibold text-xs`}
+              >
                 <img src={category.url} className="w-6 h-6 mx-auto" />
                 <p className="mt-2 font-medium">{category.title}</p>
               </button>

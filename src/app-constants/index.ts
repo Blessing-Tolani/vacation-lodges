@@ -24,24 +24,28 @@ export const CATEGORIES = [
         url:'https://a0.muscache.com/pictures/7630c83f-96a8-4232-9a10-0398661e2e6f.jpg',
     },
     {
-        title:'Boats',
+        title:'OMG!',
         url:'https://a0.muscache.com/pictures/7630c83f-96a8-4232-9a10-0398661e2e6f.jpg' 
     },
     {
-        title:'Beach',
+        title:'Boats',
         url:'https://a0.muscache.com/pictures/10ce1091-c854-40f3-a2fb-defc2995bcaf.jpg'
     },
     {
-        title:'Amazing Views',
+        title:'Design',
         url:'https://a0.muscache.com/pictures/7630c83f-96a8-4232-9a10-0398661e2e6f.jpg',
     },
     {
-        title:'Earth homes',
+        title:'Cabins',
         url:'https://a0.muscache.com/pictures/10ce1091-c854-40f3-a2fb-defc2995bcaf.jpg'
     },
     {
-        title:'Iconic cities',
+        title:'Beachfront',
         url:'https://a0.muscache.com/pictures/7630c83f-96a8-4232-9a10-0398661e2e6f.jpg' 
     },
-    
+    {
+        title:'Luxe',
+        url:'https://a0.muscache.com/pictures/10ce1091-c854-40f3-a2fb-defc2995bcaf.jpg'
+    },
+
 ]
