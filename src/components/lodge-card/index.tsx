@@ -70,14 +70,14 @@ export default function LodgeCard({
             </div>
           )}
           <div
-            className="text-soft flex items-center space-x-2 absolute bottom-4 left-1/2 -translate-x-1/2"
+            className="text-soft flex items-center space-x-2 absolute bottom-3.5 left-1/2 -translate-x-1/2"
             role="presentation"
           >
             {lodgeDetails?.photos?.slice(0, 5).map((photo, index) => (
               <button
                 key={photo?.pictureUrl}
                 onClick={() => setImageIndex(index)}
-                className={`w-2 h-2 rounded-full ${
+                className={`w-1.5 h-1.5 rounded-full ${
                   imageIndex === index ? 'bg-neutral-400' : 'bg-white'
                 }`}
               ></button>
