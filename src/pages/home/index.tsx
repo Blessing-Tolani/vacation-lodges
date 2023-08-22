@@ -172,7 +172,7 @@ export default function Home() {
         </section>
       </header>
       <main className="px-5 sm:px-10 lg:px-20 ">
-        <div className="mx-auto w-full lg:w-1/2 border mt-5 md:mt-3  rounded-xl flex justify-between  border-neutral-200 px-4 py-3">
+        <div className="mx-auto w-full lg:w-1/2 border mt-5 md:mt-4  rounded-xl flex justify-between  border-neutral-200 px-4 py-3">
           <div className="md:flex items-center">
             <p className="text-gray font-medium md:border-r pr-4 border-neutral-200">
               Display total price
