@@ -79,7 +79,7 @@ export default function Home() {
             />
           </a>
 
-          <button className="bg-white mdMax:hidden font-medium pr-2 pl-6 text-sm text-gray flex items-center rounded-full shadow-lg hover:shadow-md  border border-neutral-300 py-2 space-x-4">
+          <button className="bg-white mdMax:hidden font-medium pr-2 pl-6 text-sm text-gray flex items-center rounded-full shadow-md hover:shadow-sm  border border-neutral-300 py-2 space-x-4">
             <p>Anywhere</p>
             <p className="border-l border-r border-neutral-200 px-3.5">
               Any week
